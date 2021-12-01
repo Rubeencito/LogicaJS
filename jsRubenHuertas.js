@@ -1,16 +1,10 @@
-function ex1(a){
-    if (a%3 === 0){
-        console.log('Es multiple de 3')
-    }
-    if (a%7 === 0){
-        console.log('Es multiple de 7')
-    }
-    if ((a%3 !== 0) && (a%7 !== 0)){
-        console.log('No es multiple de 3 ni 7')
-    }
-}
+var x = 33;
+var y = 6;
 
-ex1(14);
-ex1(6);
-ex1(11);
+x >=10 && x<=50 ? console.log(x +' Esta dins del rang')
+                : console.log(x +' No esta dins del rang')
+
+y >=10 && y<=50 ? console.log(y +' Esta dins del rang')
+                : console.log(y +' No esta dins del rang')
+
 
