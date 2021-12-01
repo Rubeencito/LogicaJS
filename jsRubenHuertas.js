@@ -1,25 +1,14 @@
-var nota = prompt("Posa la nota del teu examen")
-switch (true) {
-    case (nota >= 0 && nota <= 4.99):
-        console.log('Insuficient')
-        break;
+var x = prompt("Posa un numero")
+var suma = 0;
+var n = 0;
 
-    case (nota >= 5 && nota <= 5.99):
-        console.log('Suficient')
-        break;
-
-    case (nota >= 6 && nota <= 6.99):
-        console.log('Be')
-        break;
-    
-    case (nota >= 7 && nota <= 8.99):
-        console.log('Notable')
-        break;
-
-    case (nota >= 9 && nota <= 10.99):
-        console.log('Excel·lent')
-        break;
+while (suma < x) {
+    console.log(n)
+    n++
+    suma = suma + n;
 }
-
+console.log(n)
+console.log("n es " + n )
+console.log("x es " + x )
 
 
