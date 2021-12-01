@@ -1,9 +1,29 @@
-var text = "r1u2b3e4n";
-var num = text.replace(/[^0-9]/gi, "");
-var sum = 0;
-for (var i = 0; i < num.length; i++) {
-    sum += Number(num.charAt(i))
+var num1 = prompt("Pon el primer numero")
+var num2 = prompt("Pon el segundo numero")
+var num3 = prompt("Pon el tercer numero")
+
+if (num1 > num2 && num2 > num3 && num1 > num3) {
+    console.log(num1 + " " + num2 + " " + num3)
 }
+if (num1 > num2 && num2 < num3 && num1 > num3) {
+    console.log(num1 + " " + num3 + " " + num2)
+} 
+
+
+if (num2 > num3 && num1 > num3 && num2 > num1) {
+    console.log(num2 + " " + num1 + " " + num3)
+} 
+if (num2 > num3 && num1 < num3 && num2 > num1) {
+    console.log(num2 + " " + num3 + " " + num1)
+} 
+
+
+if (num3 > num1 && num2 > num1 && num3 > num2) {
+    console.log(num3 + " " + num2 + " " + num1)
+} 
+if (num3 > num1 && num2 < num1 && num3 > num2) {
+    console.log(num3 + " " + num1 + " " + num2)
+} 
 
 
 
